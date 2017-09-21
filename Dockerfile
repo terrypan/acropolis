@@ -52,8 +52,8 @@ RUN apt-get -y update && apt-get install -y --no-install-recommends \
 	autoconf pkg-config libcurl4-gnutls-dev autotools-dev \
 	libraptor2-dev librasqal3-dev librdf0-dev libfcgi-dev \
 	libjansson-dev libxml2-dev libssl-dev \
-	flex gettext python-libxml2 libpq-dev libmysqlclient-dev \
-	uuid-dev libncurses5-dev libedit-dev \
+	flex gettext python-libxml2 libpq-dev libqpid-proton-dev libmysqlclient-dev \
+	uuid-dev libncurses5-dev libedit-dev clang xsltproc docbook-xsl-ns \
 	&& rm -rf /var/lib/apt/lists/*
 
 # Copy the source tree
@@ -73,8 +73,10 @@ RUN autoreconf -i --force \
 RUN rm -f /usr/etc/twine.conf \
 	&& rm -f /usr/etc/quilt.conf \
 	&& rm -f /usr/etc/crawl.conf \
-    && ln -s /usr/local/src/docker/crawl.conf /usr/etc/crawl.conf \
-	&& ln -s /usr/local/src/docker/quilt.conf /usr/etc/quilt.conf \
+	&& ln -s /usr/local/src/config/crawl.conf /usr/etc/crawl.conf \
+	&& ln -s /usr/local/src/config/twine-generate.conf /usr/etc/twine-generate.conf \
+	&& ln -s /usr/local/src/config/twine-correlate.conf /usr/etc/twine-correlate.conf \
+	&& ln -s /usr/local/src/config/quilt.conf /usr/etc/quilt.conf \
 	&& ln -s /usr/local/src/docker/twine.conf /usr/etc/twine.conf \
 	&& ln -s /usr/local/src/docker/twine-anansi.conf /usr/etc/twine-anansi.conf \
 	&& ln -s /usr/local/src/docker/supervisord.conf /etc/supervisor/conf.d/acropolis.conf

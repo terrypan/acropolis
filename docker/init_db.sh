@@ -5,6 +5,8 @@ set -e
 source ./docker/functions.sh
 
 # Set the hostname in the config files
+sed -i -e "s|ACROPOLIS_HOSTNAME|${ACROPOLIS_HOSTNAME-localhost}|" /usr/etc/twine-generate.conf
+sed -i -e "s|ACROPOLIS_HOSTNAME|${ACROPOLIS_HOSTNAME-localhost}|" /usr/etc/twine-correlate.conf
 sed -i -e "s|ACROPOLIS_HOSTNAME|${ACROPOLIS_HOSTNAME-localhost}|" /usr/etc/twine.conf
 sed -i -e "s|ACROPOLIS_HOSTNAME|${ACROPOLIS_HOSTNAME-localhost}|" /usr/etc/twine-anansi.conf
 sed -i -e "s|ACROPOLIS_HOSTNAME|${ACROPOLIS_HOSTNAME-localhost}|" /usr/etc/quilt.conf
@@ -30,18 +32,18 @@ if [ "${do_init}" = true ] ; then
 
 	# Use twine to migrate the schema for 'spindle'
 	echo "$(date) - doing schema migration with Twine"
-	twine -c /usr/etc/twine.conf -S >/dev/null 2>&1
-	wait_for_schema spindle com.github.bbcarchdev.spindle.twine 24
+	twine -c /usr/etc/twine-generate.conf -S
+	wait_for_schema spindle com.github.bbcarchdev.spindle.twine 28
 
 	# Use twine to migrate the schema for 'spindle'
 	echo "$(date) - doing schema migration with Anansi"
-	/usr/sbin/crawld -c /usr/etc/crawl.conf -S >/dev/null 2>&1
-	wait_for_schema anansi com.github.nevali.crawl.db 7
+	/usr/sbin/crawld -c /usr/etc/crawl.conf -S
+	wait_for_schema anansi com.github.nevali.crawl.db 9
 
 	# Use twine-writerd to migrate the schema of cluster
 	echo "$(date) - spawning a writerd to init the cluster"
-	twine-writerd >/dev/null 2>&1
-	wait_for_schema cluster com.github.bbcarchdev.libcluster 5
+	twine-writerd -c /usr/etc/twine-generate.conf
+	# wait_for_schema cluster com.github.bbcarchdev.libcluster 5
 
 	# Ask the writerd to stop and wait until its process is gone
 	kill -s SIGTERM `pidof twine-writerd`

@@ -20,6 +20,8 @@ services:
     volumes:
       - .:/usr/local/src
       - ./test/data:/data
+    # ports:
+    #   - 80:80
 
   # The LOD crawler
   anansi:
@@ -116,7 +118,7 @@ services:
   postgres:
     image: postgres:9.1
     ports:
-      - 32770:5432
+      - 5432:5432
 
   # Tstore for the output of twine-anansi and the command line client twine
   fourstore:
