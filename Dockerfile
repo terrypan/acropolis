@@ -52,8 +52,8 @@ RUN apt-get -y update && apt-get install -y --no-install-recommends \
 	autoconf pkg-config libcurl4-gnutls-dev autotools-dev \
 	libraptor2-dev librasqal3-dev librdf0-dev libfcgi-dev \
 	libjansson-dev libxml2-dev libssl-dev \
-	flex gettext python-libxml2 libpq-dev libmysqlclient-dev \
-	uuid-dev libncurses5-dev libedit-dev \
+	flex gettext python-libxml2 libpq-dev libqpid-proton-dev libmysqlclient-dev \
+	uuid-dev libncurses5-dev libedit-dev clang xsltproc docbook-xsl-ns \
 	&& rm -rf /var/lib/apt/lists/*
 
 # Copy the source tree

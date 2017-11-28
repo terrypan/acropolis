@@ -20,6 +20,8 @@ services:
     volumes:
       - .:/usr/local/src
       - ./test/data:/data
+    # ports:
+    #   - 80:80
 
   # The LOD crawler
   anansi:
@@ -128,7 +130,7 @@ services:
   s3:
     image: lphoward/fake-s3
     expose:
-      - 80
+     - 80
     command: -r /fakes3_root -p 80
     ports:
       - 8080:80
