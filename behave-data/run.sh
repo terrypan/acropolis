@@ -12,7 +12,7 @@ until nc -z ${ACROPOLIS_HOSTNAME} 80; do
 			echo Timeout
 			exit 1;
 		fi
-    sleep 5
+    sleep 1
 done
 
 count=15
@@ -23,7 +23,7 @@ until nc -z ${ACROPOLIS_HOSTNAME} 8000; do
 			echo Timeout
 			exit 1;
 		fi
-    sleep 5
+    sleep 1
 done
 echo Up!
 echo Starting test suite run...
