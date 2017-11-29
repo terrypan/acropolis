@@ -15,7 +15,8 @@ before_install:
 
   - docker-compose -f behave.yml build
   - docker ps
+  - docker-compose -f behave.yml up -d
 
 
-# script:
-#   - docker-compose -f behave.yml up
+script:
+  - docker-compose -f behave.yml logs behave
