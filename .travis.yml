@@ -14,10 +14,12 @@ before_install:
   - docker-compose --version
 
   - docker-compose -f behave.yml build
-  - docker-compose -f behave.yml up -d
+  - docker-compose -f behave.yml up acropolis-bdd -d
+  - sleep 20
+  - docker-compose -f behave.yml up behave -d
   - docker ps
-  - chmod +x ./test.sh
-  - ./test.sh
+  # - chmod +x ./test.sh
+  # - ./test.sh
 script:
   - docker-compose -f behave.yml logs behave
 
