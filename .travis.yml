@@ -21,7 +21,7 @@ before_install:
   # - chmod +x ./test.sh
   # - ./test.sh
 script:
-  - docker-compose -f behave.yml logs behave
+  - docker logs behave
 
 after_script:
   - docker-compose -f behave.yml down
