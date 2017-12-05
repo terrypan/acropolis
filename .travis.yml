@@ -1,4 +1,6 @@
-language: generic
+language: python
+python:
+  - "3.6"
 sudo: required
 services:
   - docker
@@ -20,12 +22,13 @@ before_install:
   # - chmod +x ./test.sh
   # - ./test.sh
 
+install:
+  - cd behave
+  - pip install -r requirements.txt
 before_script:
-  - docker-compose -f behave.yml up -d behave
   - docker ps
 script:
-  - docker logs behave > bddresult.log
-  - cat bddresult.log
+  - behave
 
 after_script:
   - docker-compose -f behave.yml down
