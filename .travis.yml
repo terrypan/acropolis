@@ -24,7 +24,8 @@ before_script:
   - docker-compose -f behave.yml up -d behave
   - docker ps
 script:
-  - docker logs behave
+  - docker logs behave > bddresult.log
+	- cat bddresult.log
 
 after_script:
   - docker-compose -f behave.yml down
