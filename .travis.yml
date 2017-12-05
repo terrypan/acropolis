@@ -23,7 +23,7 @@ before_install:
   # - ./test.sh
 
 install:
-  - cd behave
+  - cd behave-data
   - pip install -r requirements.txt
 before_script:
   - docker ps
