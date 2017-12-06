@@ -17,7 +17,9 @@ before_install:
 
   - docker-compose -f behave.yml build
   - docker-compose -f behave.yml up -d acropolis-bdd
+  - docker ps -a
   - sleep 20
+  - docker ps -a
 
   # - chmod +x ./test.sh
   # - ./test.sh
@@ -30,5 +32,9 @@ before_script:
 script:
   - behave
 
+after_success:
+  - aws s3 sync reports/ s3://travis-acropolis/reports-$TRAVIS_COMMIT
+
 after_script:
+  - cd ..
   - docker-compose -f behave.yml down
