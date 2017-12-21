@@ -54,7 +54,7 @@ if [ "${do_init}" = true ] ; then
 	done
 
 	# Probably a first run so we print the doc too
-	cat docker.md
+	cat README-docker.md
 fi
 
 # Run the requested command
