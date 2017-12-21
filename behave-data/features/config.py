@@ -16,6 +16,7 @@ GEO = Namespace("http://www.w3.org/2003/01/geo/wgs84_pos#")
 CRM = Namespace("http://www.cidoc-crm.org/cidoc-crm/")
 FRBR = Namespace("http://purl.org/vocab/frbr/core#")
 OLO = Namespace("http://purl.org/ontology/olo/core#")
+SCHEMA = Namespace("http://schema.org/")
 
 class Partition(Enum):
     AGENTS='agents'
