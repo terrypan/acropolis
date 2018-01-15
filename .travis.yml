@@ -35,6 +35,7 @@ script:
 after_success:
   - aws s3 sync reports/ s3://travis-acropolis/reports-$TRAVIS_COMMIT
 
+
 after_script:
   - cd ..
   - docker-compose -f behave.yml down
