@@ -18,3 +18,4 @@ six==1.11.0
 urllib3==1.22
 wrapt==1.10.11
 awscli==1.14.4
+allure-behave==2.3.1b1

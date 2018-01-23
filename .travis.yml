@@ -30,11 +30,12 @@ install:
 before_script:
   - docker ps -a
 script:
-  - behave
+  - behave -f allure_behave.formatter:AllureFormatter -o ./allure-json ./features
 
 after_success:
-  - aws s3 sync reports/ s3://travis-acropolis/reports-$TRAVIS_COMMIT
-
+  - echo $TRAVIS_COMMIT > acropolis_current_commit.txt
+  - aws s3 sync allure-json/ s3://travis-acropolis/allure-json-$TRAVIS_COMMIT
+  - aws s3 sync acropolis_current_commit.txt s3://travis-acropolis/acropolis_current_commit.txt
 
 after_script:
   - cd ..
