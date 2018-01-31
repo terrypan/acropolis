@@ -1,0 +1,27 @@
+<http://www.dbpedialite.org/things/17503.ttl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> <http://www.dbpedialite.org/things/17503.ttl> .
+<http://www.dbpedialite.org/things/17503.ttl> <http://purl.org/dc/terms/title> "dbpedia lite thing - Leisure" <http://www.dbpedialite.org/things/17503.ttl> .
+<http://www.dbpedialite.org/things/17503.ttl> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by-sa/3.0/> <http://www.dbpedialite.org/things/17503.ttl> .
+<http://www.dbpedialite.org/things/17503.ttl> <http://creativecommons.org/ns#license> <http://gnu.org/licenses/fdl-1.3.html> <http://www.dbpedialite.org/things/17503.ttl> .
+<http://www.dbpedialite.org/things/17503.ttl> <http://xmlns.com/foaf/0.1/primaryTopic> <http://www.dbpedialite.org/things/17503#id> <http://www.dbpedialite.org/things/17503.ttl> .
+<http://en.wikipedia.org/wiki/Leisure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Article> <http://www.dbpedialite.org/things/17503.ttl> .
+<http://en.wikipedia.org/wiki/Leisure> <http://schema.org/about> <http://www.dbpedialite.org/things/17503#id> <http://www.dbpedialite.org/things/17503.ttl> .
+<http://en.wikipedia.org/wiki/Leisure> <http://schema.org/about> <http://www.wikidata.org/entity/Q180910> <http://www.dbpedialite.org/things/17503.ttl> .
+<http://en.wikipedia.org/wiki/Leisure> <http://schema.org/inLanguage> "en" <http://www.dbpedialite.org/things/17503.ttl> .
+<http://www.dbpedialite.org/things/17503#id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> <http://www.dbpedialite.org/things/17503.ttl> .
+<http://www.dbpedialite.org/things/17503#id> <http://www.w3.org/2000/01/rdf-schema#label> "Leisure" <http://www.dbpedialite.org/things/17503.ttl> .
+<http://www.dbpedialite.org/things/17503#id> <http://www.w3.org/2000/01/rdf-schema#comment> "" <http://www.dbpedialite.org/things/17503.ttl> .
+<http://www.dbpedialite.org/things/17503#id> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Leisure> <http://www.dbpedialite.org/things/17503.ttl> .
+<http://www.dbpedialite.org/things/17503#id> <http://www.w3.org/2002/07/owl#sameAs> <http://www.wikidata.org/entity/Q180910> <http://www.dbpedialite.org/things/17503.ttl> .
+<http://www.dbpedialite.org/things/17503#id> <http://xmlns.com/foaf/0.1/isPrimaryTopicOf> <http://en.wikipedia.org/wiki/Leisure> <http://www.dbpedialite.org/things/17503.ttl> .
+<http://www.dbpedialite.org/things/17503#id> <http://xmlns.com/foaf/0.1/page> <http://nbn-resolving.de/urn:nbn:de:0159-20100921499> <http://www.dbpedialite.org/things/17503.ttl> .
+<http://www.dbpedialite.org/things/17503#id> <http://xmlns.com/foaf/0.1/page> <http://nbn-resolving.de/urn:nbn:de:0159-2011051216> <http://www.dbpedialite.org/things/17503.ttl> .
+<http://www.dbpedialite.org/things/17503#id> <http://xmlns.com/foaf/0.1/page> <https://www.amazon.com/PEOPLE-OF-PROWESS-Leisure-Anglo-America/dp/0252065522> <http://www.dbpedialite.org/things/17503.ttl> .
+<http://www.dbpedialite.org/things/17503#id> <http://xmlns.com/foaf/0.1/page> <https://www.researchgate.net/profile/Geoffrey_Wall2/publication/222487388_History_and_tourism/links/551bce9e0cf2909047b96826.pdf> <http://www.dbpedialite.org/things/17503.ttl> .
+<http://www.dbpedialite.org/things/17503#id> <http://xmlns.com/foaf/0.1/page> <http://www.internationalinnovation.com/the-origins-of-leisure/> <http://www.dbpedialite.org/things/17503.ttl> .
+<http://www.dbpedialite.org/things/17503#id> <http://xmlns.com/foaf/0.1/page> <https://web.archive.org/web/20080612030121/http://findarticles.com/p/articles/mi_m2279/is_n146/ai_17249828> <http://www.dbpedialite.org/things/17503.ttl> .
+<http://www.dbpedialite.org/things/17503#id> <http://xmlns.com/foaf/0.1/page> <https://web.archive.org/web/20080509122700/http://www.cwrl.utexas.edu/~ulrich/femhist/leisure.shtml> <http://www.dbpedialite.org/things/17503.ttl> .
+<http://www.dbpedialite.org/things/17503#id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://www.dbpedialite.org/things/17503.ttl> .
+<http://www.wikidata.org/entity/Q180910> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.wikidata.org/ontology#Item> <http://www.dbpedialite.org/things/17503.ttl> .
+<http://www.wikidata.org/entity/Q180910> <http://www.w3.org/2000/01/rdf-schema#label> "leisure"@en <http://www.dbpedialite.org/things/17503.ttl> .
+<http://www.wikidata.org/entity/Q180910> <http://schema.org/description> "time that is freely disposed by individuals"@en <http://www.dbpedialite.org/things/17503.ttl> .
+<http://www.wikidata.org/entity/Q180910> <http://schema.org/name> "leisure"@en <http://www.dbpedialite.org/things/17503.ttl> .

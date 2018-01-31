@@ -1,0 +1,47 @@
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix wikibase: <http://www.wikidata.org/ontology#> .
+
+<http://www.dbpedialite.org/things/17503.ttl>
+   a <http://www.w3.org/ns/formats/Turtle> , <http://purl.org/dc/dcmitype/Text> ;
+   dc:title "Data about 'dbpedia lite thing - Leisure' (Turtle format)";
+   dc:format <http://purl.org/NET/mediatypes/text/turtle> ;
+   cc:license <http://creativecommons.org/licenses/by-sa/3.0/>,
+     <http://gnu.org/licenses/fdl-1.3.html>;
+   foaf:primaryTopic <http://www.dbpedialite.org/things/17503#id> .
+
+<http://www.dbpedialite.org/things/17503> a foaf:Document;
+   dc:title "Data about 'dbpedia lite thing - Leisure'";
+   cc:license <http://creativecommons.org/licenses/by-sa/3.0/>,
+     <http://gnu.org/licenses/fdl-1.3.html>;
+   foaf:primaryTopic <http://www.dbpedialite.org/things/17503#id> ;
+   dc:hasFormat <http://www.dbpedialite.org/things/17503.ttl> .
+
+<http://en.wikipedia.org/wiki/Leisure> a schema:Article;
+   schema:about <http://www.dbpedialite.org/things/17503#id>,
+     <http://www.wikidata.org/entity/Q180910>;
+   schema:inLanguage "en" .
+
+<http://www.dbpedialite.org/things/17503#id> a owl:Thing;
+   rdfs:label "Leisure";
+   rdfs:comment "";
+   owl:sameAs <http://dbpedia.org/resource/Leisure>,
+     <http://www.wikidata.org/entity/Q180910>;
+   foaf:isPrimaryTopicOf <http://en.wikipedia.org/wiki/Leisure>;
+   foaf:page <http://nbn-resolving.de/urn:nbn:de:0159-20100921499>,
+     <http://nbn-resolving.de/urn:nbn:de:0159-2011051216>,
+     <https://www.amazon.com/PEOPLE-OF-PROWESS-Leisure-Anglo-America/dp/0252065522>,
+     <https://www.researchgate.net/profile/Geoffrey_Wall2/publication/222487388_History_and_tourism/links/551bce9e0cf2909047b96826.pdf>,
+     <http://www.internationalinnovation.com/the-origins-of-leisure/>,
+     <https://web.archive.org/web/20080612030121/http://findarticles.com/p/articles/mi_m2279/is_n146/ai_17249828>,
+     <https://web.archive.org/web/20080509122700/http://www.cwrl.utexas.edu/~ulrich/femhist/leisure.shtml> .
+
+<http://www.wikidata.org/entity/Q180910> a wikibase:Item;
+   rdfs:label "leisure"@en;
+   schema:description "time that is freely disposed by individuals"@en;
+   schema:name "leisure"@en .
