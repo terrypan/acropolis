@@ -1,0 +1,21 @@
+<http://bbcmaster.acropolis.org.uk/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#DatasetDescription> <http://bbcmaster.acropolis.org.uk/index.ttl> .
+<http://bbcmaster.acropolis.org.uk/> <http://purl.org/dc/terms/hasFormat> <http://bbcmaster.acropolis.org.uk/index.html> <http://bbcmaster.acropolis.org.uk/index.ttl> .
+<http://bbcmaster.acropolis.org.uk/> <http://purl.org/dc/terms/hasFormat> <http://bbcmaster.acropolis.org.uk/index.ttl> <http://bbcmaster.acropolis.org.uk/index.ttl> .
+<http://bbcmaster.acropolis.org.uk/> <http://purl.org/dc/terms/license> <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/> <http://bbcmaster.acropolis.org.uk/index.ttl> .
+<http://bbcmaster.acropolis.org.uk/> <http://xmlns.com/foaf/0.1/primaryTopic> <http://bbcmaster.acropolis.org.uk/#id> <http://bbcmaster.acropolis.org.uk/index.ttl> .
+<http://bbcmaster.acropolis.org.uk/index.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#DatasetDescription> <http://bbcmaster.acropolis.org.uk/index.ttl> .
+<http://bbcmaster.acropolis.org.uk/index.html> <http://purl.org/dc/terms/format> <http://purl.org/NET/mediatypes/text/html> <http://bbcmaster.acropolis.org.uk/index.ttl> .
+<http://bbcmaster.acropolis.org.uk/index.html> <http://purl.org/dc/terms/license> <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/> <http://bbcmaster.acropolis.org.uk/index.ttl> .
+<http://bbcmaster.acropolis.org.uk/index.html> <http://purl.org/dc/terms/title> "BBC Reminiscence Archive data for Research & Education Space (HTML)"@en <http://bbcmaster.acropolis.org.uk/index.ttl> .
+<http://bbcmaster.acropolis.org.uk/index.html> <http://xmlns.com/foaf/0.1/primaryTopic> <http://bbcmaster.acropolis.org.uk/#id> <http://bbcmaster.acropolis.org.uk/index.ttl> .
+<http://bbcmaster.acropolis.org.uk/index.ttl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#DatasetDescription> <http://bbcmaster.acropolis.org.uk/index.ttl> .
+<http://bbcmaster.acropolis.org.uk/index.ttl> <http://purl.org/dc/terms/format> <http://purl.org/NET/mediatypes/text/turtle> <http://bbcmaster.acropolis.org.uk/index.ttl> .
+<http://bbcmaster.acropolis.org.uk/index.ttl> <http://purl.org/dc/terms/license> <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/> <http://bbcmaster.acropolis.org.uk/index.ttl> .
+<http://bbcmaster.acropolis.org.uk/index.ttl> <http://purl.org/dc/terms/title> "BBC Reminiscence Archive data for Research & Education Space (Turtle)"@en <http://bbcmaster.acropolis.org.uk/index.ttl> .
+<http://bbcmaster.acropolis.org.uk/index.ttl> <http://xmlns.com/foaf/0.1/primaryTopic> <http://bbcmaster.acropolis.org.uk/#id> <http://bbcmaster.acropolis.org.uk/index.ttl> .
+<http://bbcmaster.acropolis.org.uk/#id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> <http://bbcmaster.acropolis.org.uk/index.ttl> .
+<http://bbcmaster.acropolis.org.uk/#id> <http://purl.org/dc/terms/description> "Master BBC Collection with all subsets"@en <http://bbcmaster.acropolis.org.uk/index.ttl> .
+<http://bbcmaster.acropolis.org.uk/#id> <http://purl.org/dc/terms/license> <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/> <http://bbcmaster.acropolis.org.uk/index.ttl> .
+<http://bbcmaster.acropolis.org.uk/#id> <http://purl.org/dc/terms/title> "BBC Archive for Research & Education Space"@en <http://bbcmaster.acropolis.org.uk/index.ttl> .
+<http://bbcmaster.acropolis.org.uk/#id> <http://rdfs.org/ns/void#feature> <http://www.w3.org/ns/formats/Turtle> <http://bbcmaster.acropolis.org.uk/index.ttl> .
+<http://bbcmaster.acropolis.org.uk/#id> <http://rdfs.org/ns/void#subset> <http://remarc.acropolis.org.uk/#id> <http://bbcmaster.acropolis.org.uk/index.ttl> .

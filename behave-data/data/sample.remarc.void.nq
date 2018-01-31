@@ -1,0 +1,56 @@
+<http://remarc.acropolis.org.uk/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#DatasetDescription> <http://remarc.acropolis.org.uk/index.ttl> .
+<http://remarc.acropolis.org.uk/> <http://purl.org/dc/terms/hasFormat> <http://remarc.acropolis.org.uk/index.html> <http://remarc.acropolis.org.uk/index.ttl> .
+<http://remarc.acropolis.org.uk/> <http://purl.org/dc/terms/hasFormat> <http://remarc.acropolis.org.uk/index.ttl> <http://remarc.acropolis.org.uk/index.ttl> .
+<http://remarc.acropolis.org.uk/> <http://purl.org/dc/terms/license> <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/> <http://remarc.acropolis.org.uk/index.ttl> .
+<http://remarc.acropolis.org.uk/> <http://xmlns.com/foaf/0.1/primaryTopic> <http://remarc.acropolis.org.uk/#id> <http://remarc.acropolis.org.uk/index.ttl> .
+<http://remarc.acropolis.org.uk/index.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#DatasetDescription> <http://remarc.acropolis.org.uk/index.ttl> .
+<http://remarc.acropolis.org.uk/index.html> <http://purl.org/dc/terms/format> <http://purl.org/NET/mediatypes/text/html> <http://remarc.acropolis.org.uk/index.ttl> .
+<http://remarc.acropolis.org.uk/index.html> <http://purl.org/dc/terms/license> <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/> <http://remarc.acropolis.org.uk/index.ttl> .
+<http://remarc.acropolis.org.uk/index.html> <http://purl.org/dc/terms/title> "BBC Reminiscence Archive data for Research & Education Space (HTML)"@en <http://remarc.acropolis.org.uk/index.ttl> .
+<http://remarc.acropolis.org.uk/index.html> <http://xmlns.com/foaf/0.1/primaryTopic> <http://remarc.acropolis.org.uk/#id> <http://remarc.acropolis.org.uk/index.ttl> .
+<http://remarc.acropolis.org.uk/index.ttl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#DatasetDescription> <http://remarc.acropolis.org.uk/index.ttl> .
+<http://remarc.acropolis.org.uk/index.ttl> <http://purl.org/dc/terms/format> <http://purl.org/NET/mediatypes/text/turtle> <http://remarc.acropolis.org.uk/index.ttl> .
+<http://remarc.acropolis.org.uk/index.ttl> <http://purl.org/dc/terms/license> <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/> <http://remarc.acropolis.org.uk/index.ttl> .
+<http://remarc.acropolis.org.uk/index.ttl> <http://purl.org/dc/terms/title> "BBC Reminiscence Archive data for Research & Education Space (Turtle)"@en <http://remarc.acropolis.org.uk/index.ttl> .
+<http://remarc.acropolis.org.uk/index.ttl> <http://xmlns.com/foaf/0.1/primaryTopic> <http://remarc.acropolis.org.uk/#id> <http://remarc.acropolis.org.uk/index.ttl> .
+<http://remarc.acropolis.org.uk/#id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> <http://remarc.acropolis.org.uk/index.ttl> .
+<http://remarc.acropolis.org.uk/#id> <http://purl.org/dc/terms/description> "Data describing the video, audio and images made available in the BBC Reminiscence Archive.  The BBC Reminiscence Archive contains material designed to trigger memories in people with dementia.  It contains around 1500 media items from the BBC Archives from the 1930s to 2000s, and covering a range of subject matter.  The media is licensed for personal, educational and research reuse under the terms of the RemArc License. "@en <http://remarc.acropolis.org.uk/index.ttl> .
+<http://remarc.acropolis.org.uk/#id> <http://purl.org/dc/terms/license> <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/> <http://remarc.acropolis.org.uk/index.ttl> .
+<http://remarc.acropolis.org.uk/#id> <http://purl.org/dc/terms/title> "BBC Reminiscence Archive data for Research & Education Space"@en <http://remarc.acropolis.org.uk/index.ttl> .
+<http://remarc.acropolis.org.uk/#id> <http://rdfs.org/ns/void#feature> <http://www.w3.org/ns/formats/Turtle> <http://remarc.acropolis.org.uk/index.ttl> .
+<http://remarc.acropolis.org.uk/#id> <http://rdfs.org/ns/void#subset> <http://remarc.acropolis.org.uk/audio#id> <http://remarc.acropolis.org.uk/index.ttl> .
+<http://remarc.acropolis.org.uk/#id> <http://rdfs.org/ns/void#subset> <http://remarc.acropolis.org.uk/images#id> <http://remarc.acropolis.org.uk/index.ttl> .
+<http://remarc.acropolis.org.uk/#id> <http://rdfs.org/ns/void#subset> <http://remarc.acropolis.org.uk/videos#id> <http://remarc.acropolis.org.uk/index.ttl> .
+
+<http://remarc.acropolis.org.uk/audio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#DatasetDescription> <http://remarc.acropolis.org.uk/audio.ttl> .
+<http://remarc.acropolis.org.uk/audio> <http://purl.org/dc/terms/license> <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/> <http://remarc.acropolis.org.uk/audio.ttl> .
+<http://remarc.acropolis.org.uk/audio> <http://xmlns.com/foaf/0.1/primaryTopic> <http://remarc.acropolis.org.uk/audio#id> <http://remarc.acropolis.org.uk/audio.ttl> .
+<http://remarc.acropolis.org.uk/audio#id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> <http://remarc.acropolis.org.uk/audio.ttl> .
+<http://remarc.acropolis.org.uk/audio#id> <http://purl.org/dc/terms/description> "Data describing the videos made available in the BBC Reminiscence Archive.  The BBC Reminiscence Archive contains material designed to trigger memories in people with dementia. The media is licensed for personal, educational and research reuse under the terms of the RemArc License. "@en <http://remarc.acropolis.org.uk/audio.ttl> .
+<http://remarc.acropolis.org.uk/audio#id> <http://purl.org/dc/terms/license> <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/> <http://remarc.acropolis.org.uk/audio.ttl> .
+<http://remarc.acropolis.org.uk/audio#id> <http://purl.org/dc/terms/title> "BBC Reminiscence Archive data as RDF (audio)"@en <http://remarc.acropolis.org.uk/audio.ttl> .
+<http://remarc.acropolis.org.uk/audio#id> <http://rdfs.org/ns/void#feature> <http://www.w3.org/ns/formats/Turtle> <http://remarc.acropolis.org.uk/audio.ttl> .
+
+<http://remarc.acropolis.org.uk/videos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#DatasetDescription> <http://remarc.acropolis.org.uk/videos.ttl> .
+<http://remarc.acropolis.org.uk/videos> <http://purl.org/dc/terms/license> <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/> <http://remarc.acropolis.org.uk/videos.ttl> .
+<http://remarc.acropolis.org.uk/videos> <http://xmlns.com/foaf/0.1/primaryTopic> <http://remarc.acropolis.org.uk/videos#id> <http://remarc.acropolis.org.uk/videos.ttl> .
+<http://remarc.acropolis.org.uk/videos#id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> <http://remarc.acropolis.org.uk/videos.ttl> .
+<http://remarc.acropolis.org.uk/videos#id> <http://purl.org/dc/terms/description> "Data describing the videos made available in the BBC Reminiscence Archive.  The BBC Reminiscence Archive contains material designed to trigger memories in people with dementia. The media is licensed for personal, educational and research reuse under the terms of the RemArc License. "@en <http://remarc.acropolis.org.uk/videos.ttl> .
+<http://remarc.acropolis.org.uk/videos#id> <http://purl.org/dc/terms/license> <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/> <http://remarc.acropolis.org.uk/videos.ttl> .
+<http://remarc.acropolis.org.uk/videos#id> <http://purl.org/dc/terms/title> "BBC Reminiscence Archive data as RDF (videos)"@en <http://remarc.acropolis.org.uk/videos.ttl> .
+<http://remarc.acropolis.org.uk/videos#id> <http://rdfs.org/ns/void#feature> <http://www.w3.org/ns/formats/Turtle> <http://remarc.acropolis.org.uk/videos.ttl> .
+
+<http://remarc.acropolis.org.uk/images> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#DatasetDescription> <http://remarc.acropolis.org.uk/images.ttl> .
+<http://remarc.acropolis.org.uk/images> <http://purl.org/dc/terms/license> <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/> <http://remarc.acropolis.org.uk/images.ttl> .
+<http://remarc.acropolis.org.uk/images> <http://xmlns.com/foaf/0.1/primaryTopic> <http://remarc.acropolis.org.uk/images#id> <http://remarc.acropolis.org.uk/images.ttl> .
+<http://remarc.acropolis.org.uk/images#id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> <http://remarc.acropolis.org.uk/images.ttl> .
+<http://remarc.acropolis.org.uk/images#id> <http://purl.org/dc/terms/description> "Data describing the videos made available in the BBC Reminiscence Archive.  The BBC Reminiscence Archive contains material designed to trigger memories in people with dementia. The media is licensed for personal, educational and research reuse under the terms of the RemArc License. "@en <http://remarc.acropolis.org.uk/images.ttl> .
+<http://remarc.acropolis.org.uk/images#id> <http://purl.org/dc/terms/license> <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/> <http://remarc.acropolis.org.uk/images.ttl> .
+<http://remarc.acropolis.org.uk/images#id> <http://purl.org/dc/terms/title> "BBC Reminiscence Archive data as RDF (images)"@en <http://remarc.acropolis.org.uk/images.ttl> .
+<http://remarc.acropolis.org.uk/images#id> <http://rdfs.org/ns/void#feature> <http://www.w3.org/ns/formats/Turtle> <http://remarc.acropolis.org.uk/images.ttl> .
+
+<http://remarc.acropolis.org.uk/terms> <http://purl.org/dc/terms/license> <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/> <http://remarc.acropolis.org.uk/terms.ttl> .
+<http://remarc.acropolis.org.uk/terms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> <http://remarc.acropolis.org.uk/terms.ttl> .
+<http://remarc.acropolis.org.uk/terms> <http://xmlns.com/foaf/0.1/primaryTopic> <http://remarc.acropolis.org.uk/terms#id> <http://remarc.acropolis.org.uk/terms.ttl> .
+<http://remarc.acropolis.org.uk/terms#id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/odrl/2/Policy> <http://remarc.acropolis.org.uk/terms.ttl> .
+<http://remarc.acropolis.org.uk/terms#id> <http://www.w3.org/2000/01/rdf-schema#label> "Accessible by all users under the Open Government Licence."@en-gb <http://remarc.acropolis.org.uk/terms.ttl> .

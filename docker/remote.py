@@ -77,8 +77,8 @@ class Handler(BaseHTTPRequestHandler):
 
             elif self.path == '/delete':
                 curs = self.server.db.cursor()
-                curs.execute("TRUNCATE audiences, index, index_media, licenses_audiences, media,"
-                             " membership, moved, proxy, state;")
+                curs.execute("TRUNCATE about, audiences, index, index_media, licenses_audiences, media,"
+                             " membership, moved, proxy, state, triggers;")
                 response['message'] = 'Delete completed'
                 self._reply_with(200, response)
         except CalledProcessError as e:

@@ -64,6 +64,22 @@ def step_impl_count_relevant(context):
     report = resutils.count_objects_all(resutils.get_graph_for(context.response.content))
     context.relevant_dict = report
 
+# Added to test collection query
+@when('I request proxy of {proxy}')
+def step_impl_partition(context, proxy):
+    if 'Accept' in context.requests_headers:
+        response = context.session.get(context.proxydict[proxy].url, params = context.requests_params, headers = {'Accept': context.requests_headers["Accept"] })
+    else:
+        response = context.session.get(context.proxydict[proxy].url, params = context.requests_params, headers = {'Accept': 'text/turtle'})
+    # context.url = parse.unquote(response.url)
+    context.url = response.url
+    context.response = response
+
+    # Clean proxy entry from dict
+    context.proxydict.pop(proxy, None)
+    # logging.info(response.text+"\n")
+    logging.info("Calling URL => "+context.url+"\n")
+
 @when('I request {partition}')
 def step_impl_partition(context, partition):
 
@@ -127,6 +143,7 @@ def step_impl_count_total_triples(context, number):
 @then('a proxy exists for {proxy}')
 def step_impl_count_relevant(context, proxy):
     proxy_response = resutils.get_proxy_for(context, proxy)
+    logging.info("proxy <"+proxy+"> --> "+str(proxy_response)+"\n")
     assert_that(proxy_response.history[0].status_code , equal_to(303))
 
     logging.info("proxy <"+proxy+"> --> "+str(proxy_response.url)+"\n")
