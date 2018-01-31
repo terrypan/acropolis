@@ -1,0 +1,21 @@
+<http://foo.bar/people/nurse1#id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> <http://foo.bar/> .
+<http://foo.bar/people/nurse1#id> <http://www.w3.org/2000/01/rdf-schema#label> "Nurse 1"@en <http://foo.bar/> .
+<http://foo.bar/photos/nurse1photo#id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Photograph> <http://foo.bar/> .
+<http://foo.bar/photos/nurse1photo#id> <http://www.w3.org/2000/01/rdf-schema#label> "Photograph of Nurse 1"@en <http://foo.bar/> .
+<http://foo.bar/photos/nurse1photo#id> <http://xmlns.com/foaf/0.1/primaryTopic> <http://foo.bar/people/nurse1#id> <http://foo.bar/> .
+<http://foo.bar/photos/nurse1photo#id> <http://search.yahoo.com/mrss/content> <http://foo.bar/media/nurse1photo.jpg> <http://foo.bar/> .
+<http://foo.bar/media/nurse1photo.jpg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/dcmitype/StillImage> <http://foo.bar/> .
+<http://foo.bar/places/ward1#id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> <http://foo.bar/> .
+<http://foo.bar/places/ward1#id> <http://www.w3.org/2000/01/rdf-schema#label> "Hospital ward where Nurse 1 and Nurse 2 work"@en <http://foo.bar/> .
+<http://foo.bar/photos/ward1photo#id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Photograph> <http://foo.bar/> .
+<http://foo.bar/photos/ward1photo#id> <http://www.w3.org/2000/01/rdf-schema#label> "Photograph of the hospital ward"@en-gb <http://foo.bar/> .
+<http://foo.bar/photos/ward1photo#id> <http://xmlns.com/foaf/0.1/primaryTopic> <http://foo.bar/places/ward1#id> <http://foo.bar/> .
+<http://foo.bar/photos/ward1photo#id> <http://search.yahoo.com/mrss/content> <http://foo.bar/media/ward1photo.jpg> <http://foo.bar/> .
+<http://foo.bar/media/ward1photo.jpg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/dcmitype/StillImage> <http://foo.bar/> .
+<http://foo.bar/people/nurse2#id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> <http://foo.bar/> .
+<http://foo.bar/people/nurse2#id> <http://www.w3.org/2000/01/rdf-schema#label> "Nurse 2"@en <http://foo.bar/> .
+<http://foo.bar/videos/nurse2film#id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/ontology/po/Programme> <http://foo.bar/> .
+<http://foo.bar/videos/nurse2film#id> <http://www.w3.org/2000/01/rdf-schema#label> "Film of Nurse 2"@en <http://foo.bar/> .
+<http://foo.bar/videos/nurse2film#id> <http://xmlns.com/foaf/0.1/primaryTopic> <http://foo.bar/people/nurse2#id> <http://foo.bar/> .
+<http://foo.bar/videos/nurse2film#id> <http://search.yahoo.com/mrss/content> <http://foo.bar/media/nurse2film.mp4> <http://foo.bar/> .
+<http://foo.bar/media/nurse2film.mp4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/dcmitype/MovingImage> <http://foo.bar/> .
