@@ -4,7 +4,7 @@ Feature: Test against Remarc collection
 
 Scenario: Ingest data
   Given Index is empty
-  Given some ingested test data sample.remarc.orig.nq
+  Given some ingested test data sample.remarc.nq
 
 Scenario Outline: Count proxies in Remarc
   When I request <endpoint>
