@@ -37,7 +37,7 @@
 <http://bbcimages.acropolis.org.uk/207#id> <http://purl.org/dc/terms/title> "Adams Gerry"@en <http://bbcimages.acropolis.org.uk/207.ttl> .
 <http://bbcimages.acropolis.org.uk/207/player> <http://www.w3.org/2003/12/exif/ns#width> "768"^^<http://www.w3.org/2001/XMLSchema#integer> <http://bbcimages.acropolis.org.uk/207.ttl> .
 <http://bbcimages.acropolis.org.uk/207> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> <http://bbcimages.acropolis.org.uk/207.ttl> .
-<http://bbcimages.acropolis.org.uk/207/player> <http://purl.org/dc/terms/license> <http://bbcimages.acropolis.org.uk/terms#id> <http://bbcimages.acropolis.org.uk/207.ttl> .
+# <http://bbcimages.acropolis.org.uk/207/player> <http://purl.org/dc/terms/license> <http://bbcimages.acropolis.org.uk/terms#id> <http://bbcimages.acropolis.org.uk/207.ttl> .
 <http://bbcimages.acropolis.org.uk/207> <http://purl.org/dc/terms/hasFormat> <http://bbcimages.acropolis.org.uk/207.ttl> <http://bbcimages.acropolis.org.uk/207.ttl> .
 <http://bbcimages.acropolis.org.uk/207> <http://purl.org/dc/terms/license> <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/> <http://bbcimages.acropolis.org.uk/207.ttl> .
 <http://bbcimages.acropolis.org.uk/207.ttl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/formats/Turtle> <http://bbcimages.acropolis.org.uk/207.ttl> .
@@ -70,7 +70,7 @@
 <http://bbcimages.acropolis.org.uk/950> <http://purl.org/dc/terms/license> <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/> <http://bbcimages.acropolis.org.uk/950.ttl> .
 <http://bbcimages.acropolis.org.uk/950#id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Photograph> <http://bbcimages.acropolis.org.uk/950.ttl> .
 <http://bbcimages.acropolis.org.uk/950#id> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Politician> <http://bbcimages.acropolis.org.uk/950.ttl> .
-<http://bbcimages.acropolis.org.uk/950/player> <http://purl.org/dc/terms/license> <http://bbcimages.acropolis.org.uk/terms#id> <http://bbcimages.acropolis.org.uk/950.ttl> .
+# <http://bbcimages.acropolis.org.uk/950/player> <http://purl.org/dc/terms/license> <http://bbcimages.acropolis.org.uk/terms#id> <http://bbcimages.acropolis.org.uk/950.ttl> .
 <http://bbcimages.acropolis.org.uk/950/player> <http://www.w3.org/2003/12/exif/ns#height> "576"^^<http://www.w3.org/2001/XMLSchema#integer> <http://bbcimages.acropolis.org.uk/950.ttl> .
 <http://bbcimages.acropolis.org.uk/950/player> <http://purl.org/dc/terms/format> <http://purl.org/NET/mediatypes/text/html> <http://bbcimages.acropolis.org.uk/950.ttl> .
 <http://bbcimages.acropolis.org.uk/950#id> <http://purl.org/dc/terms/date> "1987-10-12"^^<http://www.w3.org/2001/XMLSchema#Date> <http://bbcimages.acropolis.org.uk/950.ttl> .

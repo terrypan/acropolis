@@ -15,7 +15,7 @@ Scenario Outline: Count proxies in BBC Images
     | works          | 2     |
     | collections    | 1     |
     | assets         | 4     |
-    | everything     | 10    |
+    | everything     | 11    |
 
 Scenario Outline: Query param test
   Given I search for query <query>
@@ -27,3 +27,17 @@ Scenario Outline: Query param test
     | andrew    | 'ANDREW PRINCE DUKE OF YORK 1'   |
     | gerry     | 'Adams Gerry'                    |
 
+Scenario: ?q=politician&media=image
+	Given Index is empty
+	Given I search for query politician
+	Given I search for media image
+	When I request index
+	Then I should have 1 slots
+
+Scenario: ?q=politician&media=image
+	Given Index is empty
+	Given some ingested test data sample.bbcimages.no_license_on_media.nq
+	Given I search for query politician
+	Given I search for media image
+	When I request index
+	Then I should have 1 slots
